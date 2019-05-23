@@ -155,3 +155,1111 @@ phases:
       throw-runtime-exceptions: false
       # Set an upper bound on loop unwinding.
       unwind: 6
+units:
+# Target TGF: 455.0
+#  >methods=13
+#  >complexity=535
+#  >construction=12.0
+#  >dependency=9.83333333333
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+# Target TGF: 139.222222222
+#  >methods=29
+#  >complexity=649
+#  >construction=10.0
+#  >dependency=11.6111111111
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/AbstractEmulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AbstractEmulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/AssemblyCodeDumper.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AssemblyCodeDumper.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/debugger/Debugger.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/debugger/Debugger.java
+   - dir: target/classes
+     file: cn/banny/emulator/TraceMemoryHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/TraceMemoryHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/Alignment.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Alignment.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlock.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlock.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlockImpl.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlockImpl.java
+# Target TGF: 126.761904762
+#  >methods=17
+#  >complexity=134
+#  >construction=13.5714285714
+#  >dependency=12.3333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+# Target TGF: 114.6
+#  >methods=6
+#  >complexity=444
+#  >construction=5.14285714286
+#  >dependency=0.816666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/SvcMemory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/SvcMemory.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$2.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$1.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ArmIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ArmIntercept.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ThumbIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ThumbIntercept.java
+# Target TGF: 163.359126984
+#  >methods=29
+#  >complexity=1295
+#  >construction=9.78571428571
+#  >dependency=11.7527777778
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/spi/AbstractLoader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/AbstractLoader.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/unix/UnixSyscallHandler.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/unix/UnixSyscallHandler.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryMap.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryMap.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/linux/android/ElfLibraryFile.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/linux/android/ElfLibraryFile.java
+   - dir: target/classes
+     file: cn/banny/emulator/spi/Loader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/Loader.java
+   - dir: target/classes
+     file: cn/banny/emulator/file/FileIO.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/file/FileIO.java
+# Target TGF: 187.716666667
+#  >methods=19
+#  >complexity=523
+#  >construction=10.25
+#  >dependency=11.3666666667
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSection.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSection.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSegment.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSegment.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSymbol.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSymbol.java
+   - dir: target/classes
+     file: net/fornwall/jelf/MemoizedObject.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/MemoizedObject.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$1.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$2.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+# Target TGF: 338.0
+#  >methods=33
+#  >complexity=676
+#  >construction=26.0
+#  >dependency=13.0
+ - target:
+   - dir: target/classes
+     file: io/kaitai/MachO$MachoFlags.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+   - dir: target/classes
+     file: io/kaitai/MachO.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+# Target TGF: 964.010204082
+#  >methods=17
+#  >complexity=1686
+#  >construction=37.6071428571
+#  >dependency=4.78571428571
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Arguments.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Arguments.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 511.107142857
+#  >methods=61
+#  >complexity=1014
+#  >construction=33.5714285714
+#  >dependency=23.1666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/InvalidMemoryAccessException.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/InvalidMemoryAccessException.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 117.0
+#  >methods=2
+#  >complexity=39
+#  >construction=9.0
+#  >dependency=0.333333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/ios/Utils.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/ios/Utils.java
+units:
+# Target TGF: 455.0
+#  >methods=13
+#  >complexity=535
+#  >construction=12.0
+#  >dependency=9.83333333333
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+# Target TGF: 139.222222222
+#  >methods=29
+#  >complexity=649
+#  >construction=10.0
+#  >dependency=11.6111111111
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/AbstractEmulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AbstractEmulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/AssemblyCodeDumper.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AssemblyCodeDumper.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/debugger/Debugger.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/debugger/Debugger.java
+   - dir: target/classes
+     file: cn/banny/emulator/TraceMemoryHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/TraceMemoryHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/Alignment.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Alignment.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlock.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlock.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlockImpl.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlockImpl.java
+# Target TGF: 126.761904762
+#  >methods=17
+#  >complexity=134
+#  >construction=13.5714285714
+#  >dependency=12.3333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+# Target TGF: 114.6
+#  >methods=6
+#  >complexity=444
+#  >construction=5.14285714286
+#  >dependency=0.816666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/SvcMemory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/SvcMemory.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$2.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$1.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ArmIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ArmIntercept.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ThumbIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ThumbIntercept.java
+# Target TGF: 163.359126984
+#  >methods=29
+#  >complexity=1295
+#  >construction=9.78571428571
+#  >dependency=11.7527777778
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/spi/AbstractLoader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/AbstractLoader.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/unix/UnixSyscallHandler.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/unix/UnixSyscallHandler.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryMap.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryMap.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/linux/android/ElfLibraryFile.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/linux/android/ElfLibraryFile.java
+   - dir: target/classes
+     file: cn/banny/emulator/spi/Loader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/Loader.java
+   - dir: target/classes
+     file: cn/banny/emulator/file/FileIO.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/file/FileIO.java
+# Target TGF: 187.716666667
+#  >methods=19
+#  >complexity=523
+#  >construction=10.25
+#  >dependency=11.3666666667
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSection.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSection.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSegment.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSegment.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSymbol.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSymbol.java
+   - dir: target/classes
+     file: net/fornwall/jelf/MemoizedObject.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/MemoizedObject.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$1.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$2.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+# Target TGF: 338.0
+#  >methods=33
+#  >complexity=676
+#  >construction=26.0
+#  >dependency=13.0
+ - target:
+   - dir: target/classes
+     file: io/kaitai/MachO$MachoFlags.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+   - dir: target/classes
+     file: io/kaitai/MachO.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+# Target TGF: 964.010204082
+#  >methods=17
+#  >complexity=1686
+#  >construction=37.6071428571
+#  >dependency=4.78571428571
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Arguments.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Arguments.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 511.107142857
+#  >methods=61
+#  >complexity=1014
+#  >construction=33.5714285714
+#  >dependency=23.1666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/InvalidMemoryAccessException.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/InvalidMemoryAccessException.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 117.0
+#  >methods=2
+#  >complexity=39
+#  >construction=9.0
+#  >dependency=0.333333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/ios/Utils.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/ios/Utils.java
+units:
+# Target TGF: 455.0
+#  >methods=13
+#  >complexity=535
+#  >construction=12.0
+#  >dependency=9.83333333333
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+# Target TGF: 139.222222222
+#  >methods=29
+#  >complexity=649
+#  >construction=10.0
+#  >dependency=11.6111111111
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/AbstractEmulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AbstractEmulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/AssemblyCodeDumper.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AssemblyCodeDumper.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/debugger/Debugger.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/debugger/Debugger.java
+   - dir: target/classes
+     file: cn/banny/emulator/TraceMemoryHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/TraceMemoryHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/Alignment.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Alignment.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlock.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlock.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlockImpl.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlockImpl.java
+# Target TGF: 126.761904762
+#  >methods=17
+#  >complexity=134
+#  >construction=13.5714285714
+#  >dependency=12.3333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+# Target TGF: 114.6
+#  >methods=6
+#  >complexity=444
+#  >construction=5.14285714286
+#  >dependency=0.816666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/SvcMemory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/SvcMemory.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$2.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$1.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ArmIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ArmIntercept.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ThumbIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ThumbIntercept.java
+# Target TGF: 163.359126984
+#  >methods=29
+#  >complexity=1295
+#  >construction=9.78571428571
+#  >dependency=11.7527777778
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/spi/AbstractLoader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/AbstractLoader.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/unix/UnixSyscallHandler.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/unix/UnixSyscallHandler.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryMap.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryMap.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/linux/android/ElfLibraryFile.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/linux/android/ElfLibraryFile.java
+   - dir: target/classes
+     file: cn/banny/emulator/spi/Loader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/Loader.java
+   - dir: target/classes
+     file: cn/banny/emulator/file/FileIO.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/file/FileIO.java
+# Target TGF: 187.716666667
+#  >methods=19
+#  >complexity=523
+#  >construction=10.25
+#  >dependency=11.3666666667
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSection.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSection.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSegment.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSegment.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSymbol.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSymbol.java
+   - dir: target/classes
+     file: net/fornwall/jelf/MemoizedObject.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/MemoizedObject.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$1.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$2.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+# Target TGF: 338.0
+#  >methods=33
+#  >complexity=676
+#  >construction=26.0
+#  >dependency=13.0
+ - target:
+   - dir: target/classes
+     file: io/kaitai/MachO$MachoFlags.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+   - dir: target/classes
+     file: io/kaitai/MachO.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+# Target TGF: 964.010204082
+#  >methods=17
+#  >complexity=1686
+#  >construction=37.6071428571
+#  >dependency=4.78571428571
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Arguments.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Arguments.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 511.107142857
+#  >methods=61
+#  >complexity=1014
+#  >construction=33.5714285714
+#  >dependency=23.1666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/InvalidMemoryAccessException.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/InvalidMemoryAccessException.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 117.0
+#  >methods=2
+#  >complexity=39
+#  >construction=9.0
+#  >dependency=0.333333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/ios/Utils.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/ios/Utils.java
+units:
+# Target TGF: 455.0
+#  >methods=13
+#  >complexity=535
+#  >construction=12.0
+#  >dependency=9.83333333333
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+# Target TGF: 139.222222222
+#  >methods=29
+#  >complexity=649
+#  >construction=10.0
+#  >dependency=11.6111111111
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/AbstractEmulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AbstractEmulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/AssemblyCodeDumper.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/AssemblyCodeDumper.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/debugger/Debugger.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/debugger/Debugger.java
+   - dir: target/classes
+     file: cn/banny/emulator/TraceMemoryHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/TraceMemoryHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/Alignment.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Alignment.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlock.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlock.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryBlockImpl.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryBlockImpl.java
+# Target TGF: 126.761904762
+#  >methods=17
+#  >complexity=134
+#  >construction=13.5714285714
+#  >dependency=12.3333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+# Target TGF: 114.6
+#  >methods=6
+#  >complexity=444
+#  >construction=5.14285714286
+#  >dependency=0.816666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/SvcMemory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/SvcMemory.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$2.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/InlineHook$1.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/InlineHook.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ArmIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ArmIntercept.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ThumbIntercept.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ThumbIntercept.java
+# Target TGF: 163.359126984
+#  >methods=29
+#  >complexity=1295
+#  >construction=9.78571428571
+#  >dependency=11.7527777778
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/spi/AbstractLoader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/AbstractLoader.java
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/unix/UnixSyscallHandler.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/unix/UnixSyscallHandler.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/MemoryMap.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/MemoryMap.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+   - dir: target/classes
+     file: cn/banny/emulator/linux/android/ElfLibraryFile.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/linux/android/ElfLibraryFile.java
+   - dir: target/classes
+     file: cn/banny/emulator/spi/Loader.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/spi/Loader.java
+   - dir: target/classes
+     file: cn/banny/emulator/file/FileIO.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/file/FileIO.java
+# Target TGF: 187.716666667
+#  >methods=19
+#  >complexity=523
+#  >construction=10.25
+#  >dependency=11.3666666667
+ - target:
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfParser.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfParser.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSection.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSection.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSegment.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSegment.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfSymbol.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfSymbol.java
+   - dir: target/classes
+     file: net/fornwall/jelf/MemoizedObject.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/MemoizedObject.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfException.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfException.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$1.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+   - dir: target/classes
+     file: net/fornwall/jelf/ElfFile$2.class
+     sourceDir: src/main/java
+     sourceFile: net/fornwall/jelf/ElfFile.java
+# Target TGF: 338.0
+#  >methods=33
+#  >complexity=676
+#  >construction=26.0
+#  >dependency=13.0
+ - target:
+   - dir: target/classes
+     file: io/kaitai/MachO$MachoFlags.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+   - dir: target/classes
+     file: io/kaitai/MachO.class
+     sourceDir: src/main/java
+     sourceFile: io/kaitai/MachO.java
+# Target TGF: 964.010204082
+#  >methods=17
+#  >complexity=1686
+#  >construction=37.6071428571
+#  >dependency=4.78571428571
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/arm/ARM.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/ARM.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Arguments.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Arguments.java
+   - dir: target/classes
+     file: cn/banny/emulator/arm/Cpsr.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/arm/Cpsr.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 511.107142857
+#  >methods=61
+#  >complexity=1014
+#  >construction=33.5714285714
+#  >dependency=23.1666666667
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/pointer/UnicornPointer.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/pointer/UnicornPointer.java
+   - dir: target/classes
+     file: cn/banny/emulator/InvalidMemoryAccessException.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/InvalidMemoryAccessException.java
+   - dir: target/classes
+     file: cn/banny/emulator/memory/Memory.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/memory/Memory.java
+   - dir: target/classes
+     file: cn/banny/emulator/Emulator.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/Emulator.java
+# Target TGF: 117.0
+#  >methods=2
+#  >complexity=39
+#  >construction=9.0
+#  >dependency=0.333333333333
+ - target:
+   - dir: target/classes
+     file: cn/banny/emulator/ios/Utils.class
+     sourceDir: src/main/java
+     sourceFile: cn/banny/emulator/ios/Utils.java
